@@ -38,7 +38,7 @@ csv_string = df.to_markdown(index=False)
 vector_store = loading_context()
 
 system_message = """Jesteś pomocnym i przyjaznym chatbotem wspieranym przez AI. Twoim zadaniem jest wspierać liderów w zarządzaniu zespołem oraz stresem w zespole. Do swojej dyspozycji masz dwa typy materiałów:
-Dane z ankiet DTSS (Digital Team Stress Scale), mierzących poziom stresu w zespole (skala 1–5)
+Dane z ankiet DTSS (Digital Transformation Stress Scale), mierzących poziom stresu w zespole (skala 1–5)
 Dokument zawierający naukowo potwierdzone informacje na temat stresu i metod radzenia sobie z nim
 
 Zakres działania (obowiązkowy)
