@@ -35,3 +35,5 @@ folder_path = os.getcwd()
 docs = reading_merged_pdf() # exctracting Document objects list from pdf file (pages)
 chunks = making_chunks(docs) # creating chunks
 vector_store = creating_FAISS(chunks) #creating FAISS from chunks' embbedings
+
+vector_store.save_local("faiss_index_file_all_MiniLM_L6_v2") #zapisywanie FAISS index lokalnie
