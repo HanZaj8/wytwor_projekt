@@ -14,7 +14,7 @@ import pandas as pd
 from langchain_core.prompts import ChatPromptTemplate
 
 folder_path = os.getcwd()
-groq_key = "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"
+groq_key = #tutaj należy wstawić klucz dostępu z platformy GROQ
 os.environ['GROQ_API_KEY'] = groq_key
 
 def setting_up_chatbot():
